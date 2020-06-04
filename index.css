@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header nav,
+footer nav {
+    padding: 0 15% 0 15%;
+}
+
+header nav p,
+footer nav p {
+    display: inline-block;
+    margin: 5% 10%;
+    margin-left: 6%;
+    width: 15%;
+    background: #FF764E;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1% 0 0 0;
+    font-size: 1.1rem;
+}
+
+header nav p:nth-child(2),
+footer nav p:nth-child(2) {
+    background: #5ED3EB;
+}
+
+header nav p:last-child,
+footer nav p:last-child {
+    background: #FFCD69;
+}
+
+.container1 img {
+    width: 25%;
+    border-radius: 50%;
+    margin: 1% 0 0 8%;
+}
+
+.container1 .content1 {
+    width: 60%;
+    display: inline-block;
+    margin: 3%;
+}
+
+.container1 .content1 h1 {
+    display: inline-block;
+    font-size: 4.5rem;
+    margin: 0 0 2% 0;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.container1 .content1 p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 2% 0;
+}
+
+.container2 {
+    margin: 1% 5%;
+    background: #DDB9A3;
+}
+
+.container2 p {
+    font-size: 1.8rem;
+    margin: 2% 0;
+    color: white;
+    padding: 1% 4%;
+    text-align: center;
+}
+
+.container3 img {
+    width: 10%;
+    margin: 2% 45%;
+}
+
+.container3 p {
+    width: 25%;
+    margin: 0 38% 2%;
+    text-align: center;
+}
+
+footer {
+    background: #F9E7DC;
+}
+
+footer img {
+    height: 300px;
+    width: 100%;
+}
